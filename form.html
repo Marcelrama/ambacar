@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/fontawesome.min.css">
+	<link rel="stylesheet" href="css/slick/slick.css">
+	<link rel="stylesheet" href="css/slick/slick-theme.css">
+	<link rel="stylesheet" href="css/introLoader.min.css">
+	<link rel="stylesheet" href="css/all.min.css">
+	<title>Ambacar - Soueast - Shineray - Zotye</title>
+	<link rel="apple-touch-icon" href="http://www.ambacar.pe/wp-content/themes/ambacar/apple-touch-icon.png">
+	<link rel="shortcut icon" type="image/png" href="http://www.ambacar.pe/wp-content/themes/ambacar/favicon.png">
+
+	<!-- Global site tag (gtag.js) - Google Ads: 824450725 -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-824450725"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'AW-824450725');
+	</script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134725580-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-134725580-1');
+	</script>
+
+</head>
+
+<body>
+	<header>
+    	<div id="carouselTop" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselTop" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselTop" data-slide-to="1"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active"></div>
+            <div class="carousel-item"></div>
+          </div>
+        </div>
+		<!--INSERT FORM-->
+		<div id="formulario">
+			<h2>¡Cotiza aquí!</h2>
+			<form method="post" action="correo.php">
+				<div class="group d-flex">
+					<div><span class="icon-nombre"></span></div>
+					<div><label for="">Nombre Completo:<input type="text" name="nombre_250" required></label></div>
+				</div>
+				<div class="group d-flex">
+					<div><span class="icon-categoria"></span></div>
+					<div><label for="">Categoría:
+							<select class="rounded-0 form-control" name="modelo_50" required="">
+								<option selected="" value="" required>Categoría</option>
+								<optgroup label="Camionetas">
+									<option value="DX7 - Soueast">DX7 - Soueast</option>
+									<option value="DX3 - Soueast">DX3 - Soueast</option>
+									<option value="T600 - Soueast">T600 - Zotye</option>
+								</optgroup>
+								<optgroup label="SUV">
+									<option value="SWM X7 - Shineray">SWM X7 - Shineray</option>
+								</optgroup>
+								<optgroup label="Autos">
+									<option value="Z360 - Zotye">Z360 - Zotye</option>
+								</optgroup>
+								<optgroup label="Vans">
+									<option value="X30 - Shineray">X30 - Shineray</option>
+									<option value="X30L - Shineray">X30L - Shineray</option>
+									<option value="750 Li - Shineray">750 Li - Shineray</option>
+								</optgroup>
+								<optgroup label="Mini Trucks">
+									<option value="T50 - Shineray">T50 - Shineray</option>
+									<option value="T52 - Shineray">T52 - Shineray</option>
+								</optgroup>
+							</select></label>
+					</div>
+				</div>
+				<div class="group d-flex">
+					<div><span class="icon-telefono"></span></div>
+					<div><label for="">Teléfono:<input type="number" name="telefono_15" required></label></div>
+				</div>
+				<div class="group d-flex">
+					<div><span class="icon-correo"></span></div>
+					<div><label for="">Email:<input type="text" name="email_100" required></label></div>
+				</div>
+
+
+				<div class="group d-flex">
+					<div><span><i class="fas fa-map-marker-alt"></i></span></div>
+					<div><label for="">Concesionario:
+							<select class="rounded-0 form-control" name="concesionario_100" required>
+								<option selected="" value="">Concesionario</option>
+								<option value="Surquillo">Surquillo</option>
+								<option value="Plaza Norte">Plaza Norte-Expo Motor</option>
+								<option value="Santa Anita">Santa Anita</option>
+								<option value="San Miguel">San Miguel</option>
+								<option value="San Juan de Miraflores">San Juan de Miraflores</option>
+								<option value="Arequipa">Arequipa</option>
+								<option value="Huancayo">Huancayo</option>
+							</select></label>
+					</div>
+				</div>
+
+
+
+				<div class="group d-flex">
+					<div><span class="icon-mensaje"></span></div>
+					<div><label for="">Mensaje:<textarea name="mensaje_500" required></textarea></label></div>
+				</div>
+
+				<div class="group d-flex">
+					<div><span><i class="fas fa-map-marker-alt"></i></span></div>
+					<div><label for="">¿Cómo llegaste?
+							<select class="rounded-0 form-control" name="lead_100" required>
+								<option selected="" value="">Llegué por</option>
+								<option value="Neoauto">Neoauto</option>
+								<option value="Google">Google</option>
+							</select></label>
+					</div>
+				</div>
+
+
+				<div class="group d-flex">
+					<div></div>
+					<div class="pb-3"><input class="btn-submit py-2 rounded-2" type="submit" value="Enviar"></div>
+				</div>
+			</form>
+		</div>
+		<!--END FORM-->
+	</header>
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/slick/slick.min.js"></script>
+	<script src="js/jquery.introLoader.pack.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>

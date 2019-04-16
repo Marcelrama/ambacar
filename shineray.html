@@ -1,0 +1,415 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/main.css" >
+    <link rel="stylesheet" href="css/fontawesome.min.css" >
+    <link rel="stylesheet" href="css/slick/slick.css" >
+    <link rel="stylesheet" href="css/slick/slick-theme.css" >
+    <link rel="stylesheet" href="css/introLoader.min.css" >
+    <link rel="stylesheet" href="css/all.min.css" >
+	<title>Ambacar - Soueast - Shineray - Zotye</title>
+	<link rel="apple-touch-icon" href="http://www.ambacar.pe/wp-content/themes/ambacar/apple-touch-icon.png">
+	<link rel="shortcut icon" type="image/png" href="http://www.ambacar.pe/wp-content/themes/ambacar/favicon.png">
+
+	<!-- Global site tag (gtag.js) - Google Ads: 824450725 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-824450725"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'AW-824450725');
+    </script>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134725580-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-134725580-1');
+</script>
+
+</head>
+<body>
+	<div id="element" class="introLoading"></div>
+	<span id="t-home" class="trigger trigger-ini text-red"></span>
+	<header>
+		<nav id="navtop" class="container-fluid navbar navbar-light bg-light fixed-top navbar-expand">
+		  	<a class="log_left"><figure class="mb-0"><img src="images/logo-ambacar.png" height="100%" width="auto" alt="ambacar logo"></figure></a>
+		  	<ul class="navbar-nav ml-auto text-white">
+		      <li class="nav-item telf d-none d-md-block">
+		        <a class="nav-link helve" href="tel:(01) 717-0100">(01) 717-0100</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link social-i goto" href="#locales"><i class="fas fa-map-marker-alt animate_giro"></i></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link social-i goto" href="#modelos"><i class="fas fa-car"></i></a>
+		      </li>
+			  <li class="nav-item d-block d-md-none">
+		        <a class="nav-link social-i facebook" href="tel:(01) 717-0100" target="_blank"><i class="fas fa-phone animate_telf"></i></a>
+		      </li>
+		      <li class="nav-item d-none d-sm-block">
+		        <a class="nav-link social-i facebook" href="https://www.facebook.com/ambacar.pe/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+		      </li>
+		      <li class="nav-item d-none d-sm-block">
+		        <a class="nav-link social-i youtube" href="https://www.youtube.com/channel/UCDcE34Jx6Iu0fwypegQcAkg" target="_blank"><i class="fab fa-youtube"></i></a>
+		      </li>
+		    </ul>
+		</nav>
+
+		<div id="carouselTop" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+		    <li data-target="#carouselTop" data-slide-to="0" class="active"></li>
+		    <li data-target="#carouselTop" data-slide-to="1"></li>
+		  </ol>
+		  <div class="carousel-inner">
+		    <div class="carousel-item active"></div>
+		    <div class="carousel-item"></div>
+		  </div>
+		</div>
+
+		<div id="formulario">
+			<h2>¡Cotiza aquí!</h2>
+			<form method="post" action="correo.php">
+				<div class="group d-flex">
+					<div><span class="icon-nombre"></span></div>
+					<div><label for="">Nombre Completo:<input type="text" name="nombre_250" required></label></div>
+				</div>
+				<div class="group d-flex">
+					<div><span class="icon-categoria"></span></div>
+					<div><label for="">Categoría:
+						<select class="rounded-0 form-control" name="modelo_50" required="" >
+							<option selected="" value="" required>Categoría</option>
+							<optgroup label="Camionetas">
+								<option value="DX7 - Soueast">DX7 - Soueast</option>
+								<option value="DX3 - Soueast">DX3 - Soueast</option>
+								<option value="T600 - Soueast">T600 - Zotye</option>
+							</optgroup>
+							<optgroup label="SUV">
+								<option value="SWM X7 - Shineray">SWM X7 - Shineray</option>
+							</optgroup>
+							<optgroup label="Autos">
+								<option value="Z360 - Zotye">Z360 - Zotye</option>
+							</optgroup>
+							<optgroup label="Vans">
+								<option value="X30 - Shineray">X30 - Shineray</option>
+								<option value="X30L - Shineray">X30L - Shineray</option>
+								<option value="750 Li - Shineray">750 Li - Shineray</option>
+							</optgroup>
+								<optgroup label="Mini Trucks">
+								<option value="T50 - Shineray">T50 - Shineray</option>
+								<option value="T52 - Shineray">T52 - Shineray</option> 
+							</optgroup>
+						</select></label>
+					</div>
+				</div>
+				<div class="group d-flex">
+					<div><span class="icon-telefono"></span></div>
+					<div><label for="">Teléfono:<input type="number" name="telefono_15" required></label></div>
+				</div>
+				<div class="group d-flex">
+					<div><span class="icon-correo"></span></div>
+					<div><label for="">Email:<input type="text" name="email_100" required></label></div>
+				</div>
+			
+			
+				<div class="group d-flex">
+				    <div><span><i class="fas fa-map-marker-alt"></i></span></div>
+					<div><label for="">Concesionario:
+						<select class="rounded-0 form-control" name="concesionario_100" required >
+						    <option selected="" value="">Concesionario</option>
+								<option value="Surquillo">Surquillo</option>
+								<option value="Plaza Norte">Plaza Norte-Expo Motor</option>
+								<option value="Santa Anita">Santa Anita</option>
+								<option value="San Miguel">San Miguel</option>
+								<option value="San Juan de Miraflores">San Juan de Miraflores</option>
+								<option value="Arequipa">Arequipa</option>
+								<option value="Huancayo">Huancayo</option>
+						</select></label>
+					</div>
+				</div>
+				
+				
+				
+				<div class="group d-flex">
+					<div><span class="icon-mensaje"></span></div>
+					<div><label for="">Mensaje:<textarea name="mensaje_500" required></textarea></label></div>
+				</div>
+				
+				<div class="group d-flex">
+				    <div><span><i class="fas fa-map-marker-alt"></i></span></div>
+					<div><label for="">¿Cómo llegaste? 
+						<select class="rounded-0 form-control" name="lead_100" required >
+						    <option selected="" value="">Llegué por</option>
+								<option value="email">Email</option>
+						</select></label>
+					</div>
+				</div>
+				
+				
+				<div class="group d-flex">
+					<div></div>
+					<div class="pb-3"><input class="btn-submit py-2 rounded-2" type="submit" value="Enviar"></div>
+				</div>
+			</form>
+		</div>
+	</header>
+
+	<!-- autos -->
+	<section id="autos" class="pt-5">
+		<span id="t-autos" class="trigger trigger-top"></span>
+		<figure class="img_"><img src="images/logo-campaña.png" alt="tu verano sobre ruedas" width="100%" height="auto"></figure>
+		<figure class="auto auto-left"><img src="images/dx3.png" alt="soueast dx3" width="100%" height="auto"></figure>
+		<figure class="auto auto-right"><img src="images/dx7.png" alt="soueast dx7" width="100%" height="auto"></figure>
+	</section>
+
+	<!-- modelos -->
+	<section id="modelos" class="py-5">
+		<div class="container pt-5">
+			<div class="row">
+				<div class="col-12">
+					<!--navbar-->
+					<ul class="nav nav-tabs justify-content-center" role="tablist">
+					  <li class="nav-item">
+					    <a class="nav-link " data-toggle="tab" href="#soueast" role="tab" aria-controls="soueast" aria-selected="true"><img class="white" src="images/logo-soueast-white.png" alt="soueast"><img class="black" src="images/logo-soueast-blanco.png" alt="soueast"><i class="fas fa-chevron-down"></i></a>
+					  </li>
+					  
+					   <!--  <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#shineray" role="tab" aria-controls="shineray" aria-selected="false"><img class="white" src="images/logo-shineray-color.png" alt="shineray"><img class="black" src="images/logo-shineray-blanco.png" alt="shineray"><i class="fas fa-chevron-down"></i></a>
+                        </li> -->
+					  <li class="nav-item">
+					    <a class="nav-link" data-toggle="tab" href="#zotye" role="tab" aria-controls="zotye" aria-selected="false"><img class="white" src="images/logo-zotye-colorful.png" alt="zotye"><img class="black" src="images/logo-zotye-colorful.png" alt="zotye"><i class="fas fa-chevron-down"></i></a>
+					  </li>
+					</ul>
+					<!--content-->
+					<div class="tab-content pt-5" id="lista-modelos">
+					  <div class="tab-pane fade show active" id="soueast" role="tabpanel" aria-labelledby="soueast-tab">
+					  	<div class="row slider-stick">
+					  		<div class="col-12 col-md-6">
+					  			<figure><img src="images/imagen-dx3.jpg" alt="dx3 soueast" width="100%" height="auto"></figure>
+					  			<h2 class="subtitle">DX3 Soueast</h2>
+					  			<ul class="pl-3">
+					  				Características:
+					  				<li>Motor 1.5 Mitsubishi</li>
+					  				<li>Sunroof</li>
+					  				<li>Tecnología MIVEC</li>
+					  				<li>Botón de encendido</li>
+					  				<li>Aros de aleación Rin 18</li>
+					  			</ul>
+						  	</div>
+						  	<div class="col-12 col-md-6">
+						  		<figure><img src="images/imagen-dx7.jpg" alt="dx7 soueast" width="100%" height="auto"></figure>
+						  		<h2 class="subtitle">DX7 Soueast</h2>
+						  		<ul class="pl-3">
+					  				Características:
+					  				<li>Motor 1.5 Mitsubishi con turbo</li>
+					  				<li>Asistencia de arranque en pendientes (HAC)</li>
+					  				<li>Control de estabilidad (ESC)</li>
+					  				<li>Sistema ISOFIX</li>
+					  				<li>Control de tracción (TCS)</li>
+					  			</ul>
+						  	</div>
+					  	</div>
+					  </div>
+					  <!--<div class="tab-pane fade" id="shineray" role="shineray" aria-labelledby="shineray-tab">
+					  	<div class="row slider-stick">
+					  		<div class="col-12 col-md-4">
+					  			<figure><img src="images/shineray-750li.png" alt="shineray 750li" width="100%" height="auto"></figure>
+					  			<h2 class="subtitle">750Li Shineray</h2>
+					  			<ul class="pl-3 mb-0">
+					  				Características:
+					  			</ul>
+						  		<p class="text-white text-justify">Tiene gran amplitud interior por sus 3 filas de asientos, donde puede transportar hasta 8 pasajeros. También viene equipada con motor de 1.5L
+					  			</p>
+						  	</div>
+						  	<div class="col-12 col-md-4">
+						  		<figure><img src="images/shineray-x30.png" alt="shineray x30" width="100%" height="auto"></figure>
+						  		<h2 class="subtitle">X30 Shineray</h2>
+						  		<ul class="pl-3 mb-0">
+					  				Características:
+					  			</ul>
+						  		<p class="text-white text-justify">Es la única con motor 1.5, donde te da la posibilidad de viajar a lugares que otras Van's no pueden. Además tiene un radio de giro de 5.5 M lo cual te ayudará en la maniobrabilidad del vehículo. </p>
+						  	</div>
+						  	<div class="col-12 col-md-4">
+						  		<figure><img src="images/shineray-x30l.png" alt="shineray x30l" width="100%" height="auto"></figure>
+						  		<h2 class="subtitle">X30L Shineray</h2>
+						  		<ul class="pl-3 mb-0">
+					  				Características:
+					  			</ul>
+						  		<p class="text-white text-justify">La Van X30L es perfecta para transportar hasta 11 pasajeros, donde te da la posibilidad de viajar a lugares que otras Van's no pueden. Además, cuenta con motor 1.5L y es la única Van que tiene frenos ABS para dar seguridad de tus ocupantes.</p>
+						  	</div>
+					  	</div>
+					  </div>-->
+					  <div class="tab-pane fade" id="zotye" role="zotye" aria-labelledby="zotye-tab">
+					  	<div class="row slider-stick">
+					  		<div class="col-12 col-md-4">
+					  			<figure><img src="images/zotye-t600.png" alt="zotye t600" width="100%" height="auto"></figure>
+					  			<h2 class="subtitle">T600 Zotye</h2>
+					  			<ul class="pl-3 mb-0">
+					  				Características:
+					  			</ul>
+						  		<p class="text-white text-justify">La T600 tiene un Motor Turbo de hasta 2.0 L, techo panorámico, Sunroof, asientos eléctricos, pantalla táctil y cámara de retroceso. Además, también cuenta con frenos de disco con ABS y EBD y 6 airbags</p>
+						  	</div>
+						  	<div class="col-12 col-md-4">
+						  		<figure><img src="images/zotye-z360.png" alt="zotye z360" width="100%" height="auto"></figure>
+						  		<h2 class="subtitle">Z360 Zotye</h2>
+						  		<ul class="pl-3 mb-0">
+					  				Características:
+					  			</ul>
+						  		<p class="text-white text-justify">Viene equipado con motor 1.5, frenos de disco en las 4 ruedas con ABS y EBD, doble airbag, aire acondicionado y aros de aleación.</p>
+						  	</div>
+						  	<div class="col-12 col-md-4">
+						  		<figure><img src="images/zotye-z560.png" alt="zotye z500" width="100%" height="auto"></figure>
+						  		<h2 class="subtitle">Z500 Zotye</h2>
+						  		<ul class="pl-3 mb-0">
+					  				Características:
+					  			</ul>
+						  		<p class="text-white text-justify">Tiene Motor Mitsubishi Turbo Mivec 1.5 L, pantalla táctil con cámara de retroceso, frenos de disco con ABS y EBD, asientos de cuero y gran espacio interior.</p>
+						  	</div>
+					  	</div>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- locales -->
+	<section id="locales" class="py-5">
+		<div class="container">
+			<div class="row" id="accordionLocales">
+				<div class="col-12 py-5">
+					<h2 class="text-center mb-0 text-dark"><b>UBÍCANOS</b></h2>
+					<h2 class="text-center  text-dark"><b>EN NUESTROS LOCALES</b></h2>
+					<hr>
+				</div>
+
+				<div  class="gilroy col-12 col-lg-3 pb-0 pb-lg-4">
+					<a class="btn-first btn-map btn btn-block d-block d-lg-none" data-toggle="collapse" href="#surquillo" role="button" aria-expanded="true" aria-controls="surquillo">Ambacar Surquillo<i class="fas fa-chevron-down"></i></a>
+					<div id="surquillo" class="collapse show" data-parent="#accordionLocales">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.2838426217564!2d-77.01850030793715!3d-12.102883896888596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c873c91c67d9%3A0x2689bb6683cf1dd6!2sAMBACAR+SAC!5e0!3m2!1ses-419!2spe!4v1513494126439" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<div class="border-left px-3 mt-3">
+							<h3 class="h6">Surquillo</h3>
+							<p class=" mb-2"><i class="fas fa-map-marker-alt"></i> Av. República de Panamá 3881.</p>
+							<p class=" mb-0"><i class="fas fa-phone"></i> (01) 717 0121</p>
+							<p class=""><i class="fas fa-phone"></i> (01) 717 0122</p>
+						</div>
+					</div>
+				</div>
+				<div class="gilroy col-12 col-lg-3 pb-0 pb-lg-4">
+					<a class="btn-map btn btn-block d-block d-lg-none" data-toggle="collapse" href="#plaza-norte" role="button" aria-expanded="true" aria-controls="plaza-norte">Ambacar Plaza Norte<i class="fas fa-chevron-down"></i></a>
+					<div id="plaza-norte" class="collapse show" data-parent="#accordionLocales">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.5390060389354!2d-77.06278798493325!3d-12.006367391494255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105cf0ec131bf75%3A0x2050596c2383c922!2sAmbacar+Plaza+Norte!5e0!3m2!1ses!2spe!4v1543270021228" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<div class="border-left px-3 mt-3">
+							<h3 class="h6">Plaza Norte - Expo Motor</h3>
+							<p class=" mb-2"><i class="fas fa-map-marker-alt"></i> Expo Motor Centro Comercial Plaza Lima Norte</p>
+							<p class=" "><i class="fas fa-phone"></i> (01) 717 4568</p>
+						</div>
+					</div>
+				</div>
+				<div class="gilroy col-12 col-lg-3 pb-0 pb-lg-4">
+					<a class="btn-map btn btn-block d-block d-lg-none" data-toggle="collapse" href="#mall-aventura" role="button" aria-expanded="true" aria-controls="mall-aventura">Ambacar Mall Aventura<i class="fas fa-chevron-down"></i></a>
+					<div id="mall-aventura" class="collapse show" data-parent="#accordionLocales">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62418.1664436001!2d-77.05351983104065!3d-12.102881688854929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c7300359be6b%3A0x2803202377abe246!2sAmbacar+Mall+Aventura+Santa+Anita!5e0!3m2!1ses!2spe!4v1543269372591" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<div class="border-left px-3 mt-3">
+							<h3 class="h6">Santa Anita</h3>
+							<p class=" mb-2"><i class="fas fa-map-marker-alt"></i> Mall Aventura</p>
+							<p class=" "><i class="fas fa-phone"></i> (01) 606 4367</p>
+						</div>
+					</div>
+				</div>
+				<div class="gilroy col-12 col-lg-3 pb-0 pb-lg-4">
+					<a class="btn-map btn btn-block d-block d-lg-none" data-toggle="collapse" href="#san-miguel" role="button" aria-expanded="true" aria-controls="san-miguel">Ambacar San Miguel<i class="fas fa-chevron-down"></i></a>
+					<div id="san-miguel" class="collapse show" data-parent="#accordionLocales">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.5848300481352!2d-77.10085558566553!3d-12.07206099145046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c963d8e35629%3A0xfa96bdd9a07501bd!2sAMBACAR!5e0!3m2!1ses-419!2spe!4v1513494423961" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<div class="border-left px-3 mt-3">
+							<h3 class="h6">San Miguel</h3>
+							<p class=" mb-2"><i class="fas fa-map-marker-alt"></i> Elmer Faucett 184</p>
+							<p class=" mb-0"><i class="fas fa-phone"></i> (01) 714 9486</p>
+							<p class=" "><i class="fas fa-phone"></i> (01) 714 9487</p>
+						</div>
+					</div>
+				</div>
+				<div class="gilroy col-12 col-lg-3 pb-0 pb-lg-4">
+					<a class="btn-map btn btn-block d-block d-lg-none" data-toggle="collapse" href="#mall-sur" role="button" aria-expanded="true" aria-controls="mall-sur">Ambacar Mall del Sur<i class="fas fa-chevron-down"></i></a>
+					<div id="mall-sur" class="collapse show" data-parent="#accordionLocales">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1378.991554877225!2d-76.98259455560869!3d-12.154708547381105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x11cd19f051902d29!2sAmbacar+Mall+del+Sur!5e0!3m2!1ses!2spe!4v1543269865316" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<div class="border-left px-3 mt-3">
+							<h3 class="h6">San Juan de Miraflores</h3>
+							<p class=" mb-2"><i class="fas fa-map-marker-alt"></i> Expo Motor - Mall del Sur</p>
+							<p class=""><i class="fas fa-phone"></i> (01) 314 5887</p>
+						</div>
+					</div>
+					
+				</div>
+				<div class="gilroy col-12 col-lg-3 pb-0 pb-lg-4">
+					<a class="btn-map btn btn-block d-block d-lg-none" data-toggle="collapse" href="#arequipa" role="button" aria-expanded="true" aria-controls="arequipa">Ambacar Arequipa<i class="fas fa-chevron-down"></i></a>
+					<div id="arequipa" class="collapse show" data-parent="#accordionLocales">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.144931706644!2d-71.51624318488732!3d-16.417464088666584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424b1a6bcfafb7%3A0xe15fe4683a1d43c0!2sMall+Aventura!5e0!3m2!1ses!2spe!4v1543269445589" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<div class="border-left px-3 mt-3">
+							<h3 class="h6">Arequipa</h3>
+							<p class=" mb-2"><i class="fas fa-map-marker-alt"></i> Mall Aventura Porongoche</p>
+							<p class=""><i class="fas fa-phone"></i> (054) 619 284</p>
+						</div>
+					</div>
+					
+				</div>
+				<div class="gilroy col-12 col-lg-3 pb-0 pb-lg-4">
+					<a class="btn-map btn btn-block d-block d-lg-none" data-toggle="collapse" href="#huancayo" role="button" aria-expanded="true" aria-controls="huancayo">Ambacar Huancayo<i class="fas fa-chevron-down"></i></a>
+					<div id="huancayo" class="collapse show" data-parent="#accordionLocales">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31212.570258223663!2d-75.2222444476753!3d-12.072991199566887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x910e964104fb82f1%3A0xf8e45b61c55982fa!2sHuancayo!5e0!3m2!1ses!2spe!4v1543270220227" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<div class="border-left px-3 mt-3">
+							<h3 class="h6">Huancayo</h3>
+							<p class=" mb-2"><i class="fas fa-map-marker-alt"></i> Arynai, Km 8.5 Cajas, Km 18.5 San Jerónimo.</p>
+							<p class=""><i class="fas fa-phone"></i> (06) 619 284</p>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div id="navbottom" class="container-fluid navbar bg-red navbar-expand">
+		  	<a class="log_left"><figure class="mb-0"><img src="images/logo-ambacar.png" height="100%" width="auto" alt="ambacar logo"></figure></a>
+		  	<ul class="navbar-nav ml-auto text-white">
+		      <li class="nav-item telf d-none d-md-block">
+		        <a class="nav-link helve" href="tel:(01) 717-0100">(01) 717-0100</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link social-i goto" href="#locales"><i class="fas fa-map-marker-alt"></i></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link social-i goto" href="#modelos"><i class="fas fa-car"></i></a>
+		      </li>
+			  <li class="nav-item d-block d-md-none">
+		        <a class="nav-link social-i facebook" href="tel:(01) 717-0100" target="_blank"><i class="fas fa-phone"></i></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link social-i facebook" href="https://www.facebook.com/ambacar.pe/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link social-i youtube" href="https://www.youtube.com/channel/UCDcE34Jx6Iu0fwypegQcAkg" target="_blank"><i class="fab fa-youtube"></i></a>
+		      </li>
+		    </ul>
+		</div>
+	</footer>
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick/slick.min.js"></script>
+    <script src="js/jquery.introLoader.pack.min.js"></script>
+    <script src="js/main.js" ></script>
+</body>
+</html>
